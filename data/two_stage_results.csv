@@ -1,0 +1,17 @@
+set,model,r2,rel
+test split,direct linear regression,0.806235213685635,0.17219356343950937
+test split,direct random forest,0.9950411193427622,0.020905354573830345
+test split,two-stage (linear Cl -> quadratic),0.9939688058563136,0.022660104989232942
+test split,two-stage (forest Cl -> quadratic),0.9975743276489487,0.013217635758260874
+extrap: all,direct linear regression,0.2647284674308251,0.37997366426156565
+extrap: all,direct random forest,0.18119044129842843,0.356720730012664
+extrap: all,two-stage (linear Cl -> quadratic),0.9701058773123238,0.054392259678170685
+extrap: all,two-stage (forest Cl -> quadratic),0.17892820244660979,0.3522008722085449
+extrap: alpha only,direct linear regression,0.0006130947338895965,0.43021571970931116
+extrap: alpha only,direct random forest,-0.14511794805185074,0.4078042686591797
+extrap: alpha only,two-stage (linear Cl -> quadratic),0.9900210807743073,0.039149326054810606
+extrap: alpha only,two-stage (forest Cl -> quadratic),-0.1526077421719989,0.40860307619819297
+extrap: shape only,direct linear regression,0.6596158340675695,0.20861401483710554
+extrap: shape only,direct random forest,0.7740969564312882,0.18249104940311836
+extrap: shape only,two-stage (linear Cl -> quadratic),0.8402973645245166,0.10638105151046255
+extrap: shape only,two-stage (forest Cl -> quadratic),0.7940580794393398,0.1598309180675325

@@ -1,7 +1,7 @@
 # Airfoil surrogate study
 
 Code and results for "Machine-Learning Surrogates for Airfoil Aerodynamics: Accuracy, Extrapolation, and the Role
-of Known Physics: A Case Study with a Panel-Method Testbed" (preprint: `paper.pdf` in this repo).
+of Known Physics: A Case Study with a Panel-Method Testbed" (also in `paper.pdf`).
 
 Preprint: https://doi.org/10.33774/coe-2026-vnjc7
 
